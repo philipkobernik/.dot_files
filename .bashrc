@@ -1,0 +1,11 @@
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias ll="ls -al"
+alias poststart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias poststop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
+alias md="mkdir -p"
+alias rd="rmdir"
+alias rdbr='~/scripts/postgres_stop && ~/scripts/postgres_start && rake db:drop db:create db:migrate db:test:prepare'
+alias grup='git remote update --prune'
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

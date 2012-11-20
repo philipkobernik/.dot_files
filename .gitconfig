@@ -1,0 +1,7 @@
+[user]
+	email = ptk921@gmail.com
+	name = Philip Kobernik
+[branch "master"]
+  mergeoptions = --no-commit --no-ff
+[credential]
+	helper = osxkeychain
