@@ -1,0 +1,6 @@
+let mapleader = ","
+set guifont =Monaco:h17
+set lines =90
+set columns =300
+set guioptions-=T
+

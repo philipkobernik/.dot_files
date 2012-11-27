@@ -1,3 +1,9 @@
+" Make ',' Leader Key
+:let mapleader = ","
+
+" Disable NERDTree because it sucks"
+" call janus#disable_plugin('nerdtree', "it sucks")
+
 " automatically load local file changes
 set autoread
 " hamlc support
