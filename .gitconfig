@@ -1,7 +1,15 @@
 [user]
 	email = ptk921@gmail.com
 	name = Philip Kobernik
+
 [branch "master"]
   mergeoptions = --no-commit --no-ff
+
 [credential]
 	helper = osxkeychain
+
+[color]
+  ui = auto
+
+[core]
+  editor = /usr/bin/vim
